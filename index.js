@@ -24,10 +24,11 @@ client.on('messageCreate', (message) => {
             break;
 
         case `${p}say`:
-            if (message.content.split(' ').slice(1) == "") return message.reply({ embeds: [{
-                title: 'Empty message.', color: 0x9971FF
-            }] })
-            message.channel.send(`${message.content.split(/ +/).slice(1)}`)
+            message.channel.send(`${message.content.split(/ +/).slice(1)}`).catch(error => {
+                if (error.code == '50006') {
+                    message.reply({ embeds: [{ title: "Error 50006 : Empty message.", color: 0x68FF93 }] })
+                }
+            })
             break;
 
         

@@ -5,9 +5,8 @@ Yeah it's a discord bot. Nothing special. I create simple commands with it, and 
 
 ## ;Ping
 A simple ping-pong command. You say ping, it'll reply back saying pong!
-
-## /ping
-Still the simple ping-pong command, but in slash command.
+### /ping
 
 ## ;Say
 It's a copycat, it'll copy whatever you say.
+### /say (message)
