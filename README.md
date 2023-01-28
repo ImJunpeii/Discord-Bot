@@ -3,10 +3,8 @@ Yeah it's a discord bot. Nothing special. I create simple commands with it, and 
 
 # Features
 
-## ;Ping
+## ;Ping && /ping
 A simple ping-pong command. You say ping, it'll reply back saying pong!
-### /ping
 
-## ;Say
+## ;Say && /say (message)
 It's a copycat, it'll copy whatever you say.
-### /say (message)
