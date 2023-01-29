@@ -14,3 +14,6 @@ It's a copycat, it'll copy whatever you say.
 
 ## /pp [user]
 Shows how long your/their pp is. Each equal signs represents an inch. The minimum and maximum are ( 0:12 ) in inches. 
+
+## /purge (amount)
+You can purge (mass-removing) many messages with just 1 command. The minimum and maximum you can delete are ( 1:100 )
